@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/home_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_Education"
+            android:icon="@drawable/nav_school"
+            android:title="School"/>
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/nav_restaurant"
+            android:title="Restaurant"/>
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/nav_hospital"
+            android:title="Hospital"/>
+        <item
+            android:id="@+id/nav_gas_station"
+            android:icon="@drawable/nav_gas_station"
+            android:title="Gas Station"/>
+        <item
+            android:id="@+id/nav_atm"
+            android:icon="@drawable/nav_atm"
+            android:title="ATM"/>
+        <item
+            android:id="@+id/nav_tour"
+            android:icon="@drawable/nav_tour"
+            android:title="Tourist Place"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"
+            android:title="About Us"/>
+
+
+    </group>
+    <item
+        android:title="">
+        <menu>
+
+
+        </menu>
+
+    </item>
+
+</menu>
